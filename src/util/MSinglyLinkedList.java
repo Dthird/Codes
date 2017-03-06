@@ -1,13 +1,13 @@
 package util;
 
 
-public class SinglyLinkedList<T>{
-	protected SLLNode<T> head, tail;
-	public SinglyLinkedList(){
+public class MSinglyLinkedList<T>{
+	public SLLNode<T> head, tail;
+	public MSinglyLinkedList(){
 		this(null);
 	}
 	
-	public SinglyLinkedList(SLLNode<T> n){
+	MSinglyLinkedList(SLLNode<T> n){
 		head = n;
 		tail = n;
 	}
@@ -108,7 +108,7 @@ public class SinglyLinkedList<T>{
 	}
 	
 	public static void main(String[] args){
-		SinglyLinkedList<Integer> sList = new SinglyLinkedList<>();
+		MSinglyLinkedList<Integer> sList = new MSinglyLinkedList<>();
 		sList.addToHead(1);
 		sList.addToHead(2);
 		sList.addToTail(3);
