@@ -1,4 +1,7 @@
-
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Scanner;
 
 public class AliOnline {
 	boolean resolve(int[] A) {
@@ -30,8 +33,8 @@ public class AliOnline {
 	}
 	
 	public static void main(String[] args){
-		AliOnline a = new AliOnline();
-		int[] A = {2, 5, 1, 1, 1, 1, 4, 1, 7, 3, 7};
-		System.out.println(a.resolve(A));
+		List<List<Integer>> tmp = new ArrayList<>();
+		tmp.add(Arrays.asList(1,2,3));
+		System.out.println(tmp);
 	}
 }
