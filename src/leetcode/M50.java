@@ -3,6 +3,10 @@ package leetcode;
 /**
  * Created by jason on 3/12/17.
  */
+
+/**
+ * Pow(x, n)
+ */
 public class M50 {
     public double myPow(double x, int n) {
         if (x == 0)

@@ -6,6 +6,10 @@ import java.util.HashMap;
 /**
  * Created by jason on 3/7/17.
  */
+
+/**
+ * Two Sum
+ */
 public class E1 {
 
     //hash

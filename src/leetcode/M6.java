@@ -3,6 +3,10 @@ package leetcode;
 /**
  * Created by jason on 3/8/17.
  */
+
+/**
+ * ZigZag Conversion
+ */
 public class M6 {
     public String convert(String s, int numRows) {
         if (numRows == 1){

@@ -3,6 +3,10 @@ package leetcode;
 /**
  * Created by jason on 3/8/17.
  */
+
+/**
+ * Remove Duplicates from Sorted Array
+ */
 public class E26 {
     public int removeDuplicates(int[] nums) {
         if(nums.length < 2) return nums.length;

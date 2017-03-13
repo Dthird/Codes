@@ -3,6 +3,10 @@ package leetcode;
 /**
  * Created by jason on 3/12/17.
  */
+
+/**
+ * Length of Last Word
+ */
 public class E58 {
     public int lengthOfLastWord(String s) {
         s.trim();

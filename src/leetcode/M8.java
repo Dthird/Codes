@@ -3,6 +3,10 @@ package leetcode;
 /**
  * Created by jason on 3/8/17.
  */
+
+/**
+ * String to Integer (atoi)
+ */
 public class M8 {
     public int myAtoi(String str) {
         StringBuilder stringBuilder = new StringBuilder();

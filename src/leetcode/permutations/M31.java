@@ -1,9 +1,13 @@
-package leetcode;
+package leetcode.permutations;
 
 import java.util.Arrays;
 
 /**
  * Created by jason on 3/9/17.
+ */
+
+/**
+ * Next Permetion
  */
 public class M31 {
     public void nextPermutation(int[] nums) {

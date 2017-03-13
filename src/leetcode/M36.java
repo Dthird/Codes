@@ -5,6 +5,10 @@ import java.util.HashSet;
 /**
  * Created by jason on 3/9/17.
  */
+
+/**
+ * Valid Sudoku
+ */
 public class M36 {
     public boolean isValidSudoku(char[][] board) {
         for(int i = 0; i<9; i++){

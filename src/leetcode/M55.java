@@ -3,6 +3,10 @@ package leetcode;
 /**
  * Created by jason on 3/12/17.
  */
+
+/**
+ * Jump Game
+ */
 public class M55 {
 
     public boolean canJump(int[] nums) {

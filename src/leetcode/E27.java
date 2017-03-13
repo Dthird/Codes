@@ -3,6 +3,10 @@ package leetcode;
 /**
  * Created by jason on 3/8/17.
  */
+
+/**
+ * Remove Element
+ */
 public class E27 {
     public int removeElement(int[] nums, int val) {
         if (nums.length < 1){

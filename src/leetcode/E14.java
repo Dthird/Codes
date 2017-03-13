@@ -3,6 +3,10 @@ package leetcode;
 /**
  * Created by jason on 3/8/17.
  */
+
+/**
+ * Longest Common Prefix
+ */
 public class E14 {
     public String longestCommonPrefix(String[] strs) {
         if (strs.length == 0){

@@ -23,6 +23,10 @@ class Interval {
     }
 }
 
+
+/**
+ * Merge Interval
+ */
 public class M56 {
     public List<Interval> merge(List<Interval> intervals) {
         /*

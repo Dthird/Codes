@@ -3,6 +3,10 @@ package leetcode;
 /**
  * Created by jason on 3/9/17.
  */
+
+/**
+ * Divide Two Integers
+ */
 public class M29 {
     public int divide(int dividend, int divisor) {
         if (divisor == 1) // Trival case 1

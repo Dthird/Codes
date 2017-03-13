@@ -6,6 +6,10 @@ import java.util.List;
 /**
  * Created by jason on 3/8/17.
  */
+
+/**
+ * Generate Parentheses
+ */
 public class M22 {
     public List<String> generateParenthesis(int n) {
         List<String> list = new ArrayList<String>();

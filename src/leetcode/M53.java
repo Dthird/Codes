@@ -3,6 +3,10 @@ package leetcode;
 /**
  * Created by jason on 3/11/17.
  */
+
+/**
+ * Maximum Subarray
+ */
 public class M53 {
     public int maxSubArray(int[] nums) {
         int cur = 0, max = 0;

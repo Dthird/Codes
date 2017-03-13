@@ -7,6 +7,10 @@ import java.util.List;
 /**
  * Created by jason on 3/11/17.
  */
+
+/**
+ * Combination Sum 2
+ */
 public class M40 {
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
         List<List<Integer>> res = new ArrayList<>();

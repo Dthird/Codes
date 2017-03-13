@@ -5,6 +5,10 @@ import java.util.List;
 /**
  * Created by jason on 3/13/17.
  */
+
+/**
+ * Rotate List
+ */
 public class M61 {
     public ListNode rotateRight(ListNode head, int n) {
         if (head==null||head.next==null) return head;

@@ -3,6 +3,10 @@ package leetcode;
 /**
  * Created by jason on 3/9/17.
  */
+
+/**
+ * Search Insert Position
+ */
 public class E35 {
     public int searchInsert(int[] nums, int target) {
         int low = 0, high = nums.length - 1;

@@ -3,6 +3,10 @@ package leetcode;
 /**
  * Created by jiaxing on 17-3-13.
  */
+
+/**
+ * Add Binary
+ */
 public class E67 {
     public String addBinary(String a, String b) {
         StringBuilder sb = new StringBuilder();

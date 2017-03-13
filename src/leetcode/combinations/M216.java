@@ -6,6 +6,10 @@ import java.util.List;
 /**
  * Created by jason on 3/13/17.
  */
+
+/**
+ * Combination Sum 3
+ */
 public class M216 {
     public List<List<Integer>> combinationSum3(int k, int n) {
         List<List<Integer>> res = new ArrayList<>();

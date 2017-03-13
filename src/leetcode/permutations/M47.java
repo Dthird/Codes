@@ -7,6 +7,10 @@ import java.util.List;
 /**
  * Created by jiaxing on 17-3-13.
  */
+
+/**
+ * Permutations 2
+ */
 public class M47 {
     public List<List<Integer>> permuteUnique(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();

@@ -6,6 +6,10 @@ import java.util.List;
 /**
  * Created by jiaxing on 17-3-13.
  */
+
+/**
+ * Permutations
+ */
 public class M46 {
     public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();

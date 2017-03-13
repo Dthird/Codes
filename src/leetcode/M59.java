@@ -3,6 +3,10 @@ package leetcode;
 /**
  * Created by jason on 3/13/17.
  */
+
+/**
+ * Spiral Matrix 2
+ */
 public class M59 {
     public int[][] generateMatrix(int n) {
         if (n == 0)

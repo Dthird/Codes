@@ -3,6 +3,10 @@ package leetcode;
 /**
  * Created by jason on 3/11/17.
  */
+
+/**
+ * Multiply Strings
+ */
 public class M43 {
 
     public String multiply(String num1, String num2) {

@@ -3,6 +3,10 @@ package leetcode;
 /**
  * Created by jason on 3/9/17.
  */
+
+/**
+ * Count and Say
+ */
 public class E38 {
     public String countAndSay(int n) {
         if (n == 0){

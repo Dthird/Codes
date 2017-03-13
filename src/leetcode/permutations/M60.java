@@ -7,6 +7,10 @@ import java.util.List;
 /**
  * Created by jiaxing on 17-3-13.
  */
+
+/**
+ * Permutation Sequence
+ */
 public class M60 {
     public String getPermutation(int n, int k) {
         List<Integer> num = new LinkedList<Integer>();

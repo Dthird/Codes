@@ -5,6 +5,10 @@ import java.util.Arrays;
 /**
  * Created by jason on 3/9/17.
  */
+
+/**
+ * Search for a Range
+ */
 public class M34 {
     public int[] searchRange(int[] nums, int target) {
 
