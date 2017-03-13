@@ -1,4 +1,4 @@
-package leetcode.combinationsandpermutations;
+package leetcode.combinations;
 
 import java.util.ArrayList;
 import java.util.List;

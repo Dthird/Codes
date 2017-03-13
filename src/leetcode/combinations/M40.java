@@ -1,17 +1,18 @@
-package leetcode.combinationsandpermutations;
+package leetcode.combinations;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 /**
- * Created by jason on 3/10/17.
+ * Created by jason on 3/11/17.
  */
-public class M39 {
-    public List<List<Integer>> combinationSum(int[] candidates, int target) {
+public class M40 {
+    public List<List<Integer>> combinationSum2(int[] candidates, int target) {
         List<List<Integer>> res = new ArrayList<>();
         if (candidates.length == 0 || target == 0)
             return res;
+        Arrays.sort(candidates);
         backtrack(res, new ArrayList<Integer>(), candidates, target, 0);
         return res;
     }
@@ -25,10 +26,13 @@ public class M39 {
             return;
 
         for (int i = curIndex; i < nums.length; i++){
+            if (i > curIndex && nums[i] == nums[i - 1]) // remove duplicated
+                continue;
             tmp.add(nums[i]);
-            backtrack(res, tmp, nums, target - nums[i], i); // not i + 1
+            backtrack(res, tmp, nums, target - nums[i], i + 1);
             tmp.remove(tmp.size() - 1);
         }
     }
+
 
 }
