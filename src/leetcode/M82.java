@@ -16,13 +16,18 @@ public class M82 {
         ListNode dummy = new ListNode(-1);
         dummy.next = head;
 
-        ListNode p = head, q = head.next;
+        ListNode p = dummy, q = head;
         while (q != null){
-            if (p.val == q.val){
-
-            } else {
-
+            while (q.next != null && q.val == q.next.val){
+                q = q.next;
             }
+
+            if (q == p.next){
+                p = q;
+            } else {
+                p.next = q.next;
+            }
+            q = q.next;
         }
         return dummy.next;
     }
