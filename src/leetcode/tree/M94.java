@@ -7,18 +7,6 @@ import java.util.List;
  * Created by jiaxing on 17-3-15.
  */
 
-
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode(int x) {
-        val = x;
-    }
-}
-
-
 /**
  * Binary Tree Inorder Traversal
  */

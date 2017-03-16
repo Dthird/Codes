@@ -4,13 +4,6 @@ package leetcode.linkedlist;
  * Created by jason on 3/6/17.
  */
 
- class ListNode {
-      int val;
-      ListNode next;
-      ListNode(int x) { val = x; }
-
-}
-
 
 /**
  * Add Two Numbers
