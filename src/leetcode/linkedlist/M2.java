@@ -1,7 +1,4 @@
-package leetcode;
-
-import java.util.Arrays;
-import java.util.HashMap;
+package leetcode.linkedlist;
 
 /**
  * Created by jason on 3/6/17.

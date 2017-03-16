@@ -1,6 +1,6 @@
-package leetcode;
+package leetcode.linkedlist;
 
-import java.util.List;
+import leetcode.linkedlist.ListNode;
 
 /**
  * Created by jason on 3/13/17.

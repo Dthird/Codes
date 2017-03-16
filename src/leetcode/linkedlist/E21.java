@@ -1,8 +1,10 @@
-package leetcode;
+package leetcode.linkedlist;
 
 /**
  * Created by jason on 3/8/17.
  */
+
+import leetcode.linkedlist.ListNode;
 
 /**
  * Merge Two Sorted Lists

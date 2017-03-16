@@ -1,8 +1,10 @@
-package leetcode;
+package leetcode.linkedlist;
 
 /**
  * Created by jiaxing on 17-3-15.
  */
+
+import leetcode.linkedlist.ListNode;
 
 /**
  * Reverse Linked List 2

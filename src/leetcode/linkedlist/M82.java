@@ -1,8 +1,10 @@
-package leetcode;
+package leetcode.linkedlist;
 
 /**
  * Created by jason on 3/14/17.
  */
+
+import leetcode.linkedlist.ListNode;
 
 /**
  * Remove Duplicates from Sorted List 2

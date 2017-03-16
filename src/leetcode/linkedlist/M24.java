@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.linkedlist;
 
 /**
  * Created by jason on 3/8/17.
