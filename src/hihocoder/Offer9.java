@@ -113,7 +113,7 @@ class Main2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         while (sc.hasNext()) {
-            /*String line = sc.nextLine();
+            /*string line = sc.nextLine();
             int N = Integer.valueOf(line.split(" ")[0]);
             int M = Integer.valueOf(line.split(" ")[1]);
             */
