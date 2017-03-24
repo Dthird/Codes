@@ -24,4 +24,8 @@ public class M334 {
         return false;
     }
 
+    public static void main(String[] args){
+        //System.out.println(Math.log(4001) / Math.log(2));
+    }
+
 }
