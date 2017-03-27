@@ -1,14 +1,16 @@
 package intern;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 /**
  * Created by jiaxing on 17-3-25.
  */
 public class NetEase {
+    public static void main(String[] args){
+        NetEase netEase = new NetEase();
+        System.out.println();
+    }
+
 }
 
 class Main3{
